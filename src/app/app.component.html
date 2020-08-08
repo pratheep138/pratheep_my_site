@@ -1,0 +1,27 @@
+<div class="app-container">
+  <div class="headder">
+    <div class="profile-image">
+      <a class="profile-name" href="javascript:void(0)" (click)="navigateTo('home')">
+        <span class="logo">:-> | </span>Pratheep Janjanam
+      </a>
+    </div>
+    <div class="menu">
+      <ul class="nav-list transistion">
+        <li><a href="https://drive.google.com/drive/folders/1Tbob61U2PErMk73PqvGxWD0KQlg_gtxW?usp=sharing" target="_blank"><i class="fas fa-arrow-circle-down"></i> Resume</a></li>
+        <li><a href="javascript:void(0)" (click)="navigateTo('work')">Work</a></li>
+        <li><a href="javascript:void(0)" (click)="navigateTo('home')">About</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="body-container">
+    <router-outlet></router-outlet>
+  </div>
+  <div class="footer">
+    
+    <a class="linkedin" href="https://www.linkedin.com/in/pratheep-kumar-j-0252b679/" target="_blank">Linked<i
+            class="fab fa-linkedin fa-1x"></i></a>
+    <p class="copy-right"><i class="far fa-copyright"></i> 2020 Pratheep Janjanam. All rights reserved.</p>
+
+</div>
+  
+</div>

@@ -1,0 +1,251 @@
+
+  .top-container {
+    background-color: #100e17;
+    position: relative;
+    padding-top: 50px;
+    height: 520px;
+    background: #100e17;
+  }
+
+  .middle-container {
+    position: relative;
+    margin-top: -100px;
+  
+    background-color: #100e17;
+  
+  }
+
+  h1 {
+    margin-top: 0;
+    font-family: 'Sacramento', cursive;
+    font-size: 5.6em;
+    margin-bottom: 0;
+    background: linear-gradient(90deg, #ff8a00, #e52e71);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    line-height: 2;
+  
+  }
+
+  .header-gradient {
+    height: 150px;
+    background-image: linear-gradient(90deg, #ff8a00, #e52e71);
+  
+  }
+  
+  .h2-label {
+    font-size: 2.2em;
+  
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+  }
+  
+  h3 {
+    font-family: 'Sacramento', cursive;
+    font-size: 2rem;
+    background: linear-gradient(90deg, #ff8a00, #e52e71);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  
+    @media only screen and (min-width: 768px) {
+      font-size: 50px;
+    }
+  
+  }
+  
+  a {
+    color: #fff;
+  }
+  
+  h2 {
+    font-size: 2.2em;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    color: #7a7a8c;
+  
+  }
+  
+  .skill-row {
+    width: 50%;
+    margin: 50px auto 50px auto;
+    text-align: left;
+    line-height: 2;
+  
+  }
+  
+  .skill2-image {
+    width: 20%;
+    float: right;
+    border-radius: 50%;
+    border: 6px dotted #ff8a00;
+    opacity: 0.5;
+    background: #100e17;
+    box-shadow: 0 4px 40px #df6f6f;
+  }
+  
+  .skill1-image {
+    width: 20%;
+    float: left;
+    border-radius: 50%;
+    border: 6px dotted #ff8a00;
+    opacity: 0.5;
+    background: #100e17;
+    box-shadow: 0 4px 40px #df6f6f;
+  }
+  
+  .profile {
+    width: 50%;
+    margin: 0px auto 0px auto;
+  
+    line-height: 2;
+  }
+  
+  hr {
+    border: none;
+    border-top: 10px dotted #fff;
+    box-shadow: -1rem 0 3rem #000;
+    width: 9%;
+    align-content: center;
+  
+  
+  
+  }
+  
+  .btn {
+    width: auto;
+  
+    background-image: linear-gradient(90deg, #e52e71, #ff8a00);
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 27px;
+    border: 2px solid #070509;
+    box-shadow: 2px 4px 80px #8d0404;
+    
+  
+  }
+  
+  p {
+    color: #7a7a8c;
+    @media only screen and (min-width: 768px){
+      font-size: 22px;
+    font-family: "Montserrat", sans-serif;
+    }
+  }
+  
+  .contact-me {
+  
+    width: 50%;
+    margin: 50px auto 50px auto;
+    text-align: center;
+    line-height: 2;
+  
+  }
+  
+  .profile-img {
+    position: relative;
+    display: block;
+    top: 2rem;
+    margin: auto;
+    max-width: 99%;
+    max-height: 99%;
+    border-radius: 50%;
+  }
+  
+  .fa-envelope,
+  .fa-chrome,
+  .fa-safari,
+  .fa-firefox {
+    animation: rotation 8s infinite linear;
+  
+  }
+  
+  @keyframes rotation {
+    from {
+      -webkit-transform: rotate(0deg);
+    }
+  
+    to {
+      -webkit-transform: rotate(359deg);
+  
+    }
+  }
+  
+  .browsers {
+    color: #ff8800ee;
+  
+  }
+  
+  .circle {
+    height: 50px;
+    width: 50px;
+    background-color: red;
+    animation: pulse 4s cubic-bezier(0.5, 0, 0.5, 1) alternate infinite;
+    border-radius: 100%;
+    position: relative;
+    animation: circle-ani 4s ease alternate infinite;
+  }
+  
+  @keyframes pulse {
+    0% {
+      transform: scale(.20) rotate(180deg);
+  
+    }
+  
+    100% {
+      transform: scale(1);
+  
+    }
+  }
+  
+  @keyframes circle-ani {
+    0% {
+      transform: translate(0, 0);
+      background: radial-gradient(circle, #ff8a00, #e52e71);
+  
+      box-shadow: 0 4px 80px #100e17;
+    }
+  
+    100% {
+      transform: translate(35px, 35px);
+      background: radial-gradient(circle, #e52e71, #ff8a00);
+      box-shadow: 0 4px 80px rgb(100, 1, 1);
+    }
+  }
+  
+  .c-one {
+    position: absolute;
+    left: 2rem;
+    height: 55px;
+    width: 55px;
+  }
+  
+  .c-two {
+   position: absolute;
+   right: 5rem;
+  
+    height: 75px;
+    width: 75px;
+    z-index: 1;
+  }
+  
+  .c-one-two {
+    position: absolute;
+    right: 5rem;
+    height: 15px;
+    width: 15px;
+  
+  
+  }
+  
+  .c-three {
+    position: absolute;
+  
+    left: 10.5rem;
+    height: 10px;
+    width: 10px;
+  
+  
+  }

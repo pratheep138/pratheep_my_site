@@ -14,8 +14,8 @@ export class WorkComponent implements OnInit {
   constructor(private readonly router: Router) { }
 
   ngOnInit(): void {
-    this.work1 = '../../../assets/images/professional.png';
-    this.work2 = '../../../assets/images/achievements.png';
+    this.work1 = 'assets/images/professional.png';
+    this.work2 = 'assets/images/achievements.png';
   }
 
   public navigateTo(url: string) {

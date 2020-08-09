@@ -14,9 +14,9 @@ export class HomeComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
-    this.profile = '../../../assets/images/profile.png';
-    this.skill1 = '../../../assets/images/skills.png';
-    this.skill2 = '../../../assets/images/skills2.png';
+    this.profile = 'assets/images/profile.png';
+    this.skill1 = 'assets/images/skills.png';
+    this.skill2 = 'assets/images/skills2.png';
   }
 
 }

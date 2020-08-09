@@ -13,8 +13,8 @@ export class ProfessionalExpComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
-    this.company1 = '../../../assets/images/HCL.png';
-    this.company2 = '../../../assets/images/TCS.png';
+    this.company1 = 'assets/images/HCL.png';
+    this.company2 = 'assets/images/TCS.png';
   }
 
 }

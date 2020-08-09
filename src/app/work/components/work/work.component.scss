@@ -10,7 +10,7 @@
         position: relative;
         background-color: #100e17;
         @media only screen and (min-width: 768px) {
-            height: 1620px;
+            height: 2000px;
           }
       }
       
@@ -286,5 +286,64 @@
         width: 10px;
       
       
+      }
+
+      /* company rows styles*/
+      .company-row {
+        width: 50%;
+        margin: 0px auto 75px auto;
+        text-align: left;
+      }
+      
+      .company2-image {
+        width: 20%;
+        float: right;
+        opacity: 0.8;
+        background: #100e17;
+        box-shadow: 0 4px 40px #df6f6f;
+      }
+      
+      .company1-image {
+        width: 20%;
+        float: left;
+        background: #100e17;
+        box-shadow: 0 4px 40px #df6f6f;
+      }
+
+      .icons-image {
+        height: 25px;
+        width: 25px;
+        margin-bottom: 5px;
+      }
+      .techSkill-row {
+        width: 50%;
+        margin: 50px auto 50px auto;
+        text-align: left;
+        line-height: 2;
+      }
+      .techSkill-image {
+        width: 20%;
+        height: 135px;
+        float: left;
+        border-radius: 50%;
+        background: #100e17;
+        box-shadow: 0 4px 40px #df6f6f;
+      }
+      .techSkill-image1 {
+        width: 20%;
+        opacity: 0.5;
+        height: 135px;
+        float: right;
+        border-radius: 50%;
+        background: #100e17;
+        box-shadow: 0 4px 40px #df6f6f;
+      }
+      .techSkill-image2 {
+        width: 20%;
+        opacity: 0.5;
+        height: 135px;
+        float: left;
+        background: #100e17;
+        box-shadow: 0 4px 40px #df6f6f;
       }
 }

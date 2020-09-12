@@ -32,4 +32,8 @@ export class WorkComponent implements OnInit {
     this.router.navigateByUrl('/'+url);
   }
 
+  public downloadResume(){
+    window.open('assets/docs/Pratheep_Resume_UI.docx','_blank ');
+  }
+
 }

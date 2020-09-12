@@ -14,4 +14,8 @@ export class AppComponent {
   public navigateTo(url:any){
     this.router.navigateByUrl(url);
   }
+
+  public downloadResume(){
+    window.open('assets/docs/Pratheep_Resume_UI.docx','_blank ');
+  }
 }

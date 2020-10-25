@@ -15,7 +15,7 @@ export class AchievementsComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
-    this.award1 = 'assets/images/StarPerformerAward.png';
+    this.award1 = 'assets/images/starPerformerAward.png';
     this.award2 = 'assets/images/serviceCommitment.png';
     this.award3 = 'assets/images/BestFaculty.png';
     this.award4 = 'assets/images/OnTheSpot.png';

@@ -13,6 +13,7 @@ export class WorkComponent implements OnInit {
 
   public company1: string;
   public company2: string;
+  public company3: string;
 
   public techIcons: string;
 
@@ -24,6 +25,7 @@ export class WorkComponent implements OnInit {
 
     this.company1 = 'assets/images/HCL.png';
     this.company2 = 'assets/images/TCS.png';
+    this.company3 = 'assets/images/Accenture.png';
 
     this.techIcons = 'assets/images/';
   }

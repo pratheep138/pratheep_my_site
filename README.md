@@ -25,3 +25,10 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+## Publishing website to git hub pages
+1. Run `npm install -g angular-cli-ghpages` to Install the git hub pages using command 
+2. Run `ng build --prod --base-href "https://<user-name>.github.io/<repo>/` to build the application which is used to deploy on ghPages
+3. Run `ngh --dir dist/<distFolderName>` to publish the application. In some cases we have to navigate to dist folder if it's not created on the project directory and later we have to execute step 3
+4. Go to setting step of reprositiory and find the application URL under GitHub Page section
+
